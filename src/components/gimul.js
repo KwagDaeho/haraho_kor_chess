@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 const Gimul = [
   {
     id: 1,
@@ -50,13 +49,4 @@ function move() {
 function renderGimul(gimul) {
   return <Gimul key={gimul.id} name={gimul.name} point={gimul.point} />;
 }
-
-// let xPos: number;
-// let yPos: number;
-// let mapPosition = [xPos, yPos];
-
-for (let i = 0; i < 10; i++) {
-  for (let j = 0; j < 10; j++) {
-    const map: number[] = [x[i], y[j]];
-  }
-}
+export default renderGimul;
